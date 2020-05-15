@@ -9,16 +9,7 @@
     font-size: 15px;
   }
 }
-@media (min-aspect-ratio: 1/1) {
-  .Menu {
-    background: #9af; /* blue */
-  }
-}
-@media (max-aspect-ratio: 1/1) {
-  .Menu {
-    background: red; /* blue */
-  }
-}
+
 ul.Menu {
   list-style-type: none;
   margin: 0;
