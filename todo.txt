@@ -1,0 +1,23 @@
+Home:
+
+Background
+Slide to 2nd part
+
+Articles:
+
+Time+date
+Image to right
+Better text
+
+Youtube:
+
+Link
+Sub count
+View count
+Video count
+Previous videos
+Playlist videos
+
+Navbar:
+
+Make better for mobile

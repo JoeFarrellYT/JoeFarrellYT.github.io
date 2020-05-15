@@ -35,6 +35,8 @@ li a, .dropbtn {
   padding: calc((8vh - 23px) / 2) 1.1vw;
   text-decoration: none;
 }
+#Intro {height:87vh;}
+#Learn {height:87vh;}
 
 #Learn li{
    float:none;
