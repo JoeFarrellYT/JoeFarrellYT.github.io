@@ -9,6 +9,16 @@
     font-size: 15px;
   }
 }
+@media (min-aspect-ratio: 1/1) {
+  .Menu {
+    background: #9af; /* blue */
+  }
+}
+@media (max-aspect-ratio: 1/1) {
+  .Menu {
+    background: red; /* blue */
+  }
+}
 ul.Menu {
   list-style-type: none;
   margin: 0;
@@ -28,10 +38,10 @@ li {
 }
 li a, .dropbtn {
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   text-align: center;
-  padding: calc((8vh - 21px) / 2) 5vw;
+  padding: calc((8vh - 23px) / 2) 1vw;
   text-decoration: none;
 }
 
