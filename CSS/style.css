@@ -1,12 +1,24 @@
+.button {
+  background-color: #008CBA;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 601px) {
   .responsive {
-    font-size: 17px;
+    font-size: 23px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .responsive {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
@@ -35,7 +47,11 @@ li a, .dropbtn {
   padding: calc((8vh - 23px) / 2) 1.1vw;
   text-decoration: none;
 }
-#Intro {height:87vh;}
+#Intro {
+	height:46vh;
+	width: 50%;
+	margin: 26vh auto;
+}
 #Learn {height:87vh;}
 
 #Learn li{
