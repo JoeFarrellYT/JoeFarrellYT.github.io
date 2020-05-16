@@ -1,13 +1,8 @@
-Home:
 
-/Slide to 2nd part
 
 Articles:
 
-/Time+date
-/Image to right
-/Better text
-/Background to text
+Add more articles
 
 Projects:
 
@@ -15,7 +10,4 @@ Projects:
 
 Navbar:
 
-Add youtube
 Make better for mobile
-
-Personal development section under articles?
