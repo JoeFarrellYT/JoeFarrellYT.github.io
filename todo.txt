@@ -1,13 +1,13 @@
 Home:
 
-Background
 /Slide to 2nd part
 
 Articles:
 
-Time+date
-Image to right
-Better text
+/Time+date
+/Image to right
+/Better text
+/Background to text
 
 Youtube:
 
