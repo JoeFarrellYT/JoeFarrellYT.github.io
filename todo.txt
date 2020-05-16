@@ -9,15 +9,13 @@ Articles:
 /Better text
 /Background to text
 
-Youtube:
+Projects:
 
-Link
-Sub count
-View count
-Video count
-Previous videos
-Playlist videos
+
 
 Navbar:
 
+Add youtube
 Make better for mobile
+
+Personal development section under articles?
