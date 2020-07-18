@@ -44,7 +44,7 @@ li a, .dropbtn {
   font-size: 20px;
   color: white;
   text-align: center;
-  padding: calc((8vh - 23px) / 2) 1.1vw;
+  padding: calc((8vh - 23px) / 2) 2vw;
   text-decoration: none;
 }
 #Intro {
