@@ -1,10 +1,40 @@
+.button {
+	background-color: #008CBA;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 601px) {
+	.responsive{
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.responsive{
+		font-size: 22px;
+	}
+}
+
 ul.Menu {
 	list-style-type: none;
 	margin: 0;
 	padding:0;
+	height:8vh;
 	background-color: #333;
 	position: sticky;
 	top:0;
+}
+
+li a, .social{
+	padding: 0px 0px;
+	background-color: none;
 }
 
 li {
@@ -13,10 +43,33 @@ li {
 
 li a, .dropbtn {
 	display: inline-block;
+	font-size: 20px;
 	color: white;
-	text-align: centre;
-	padding: 14px 16px;
+	text-align: center;
+	padding: calc((8vh - 23px) / 2) 2.5vw;
 	text-decoration: none;
+}
+
+#Intro {
+	height:50vh;
+	width: 50%;
+	margin: 28vh auto;
+	text-align:center;
+}
+
+#Learn {height:87vh;}
+
+#Learn li{
+	float:none;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+	background-color: red;
+}
+
+li a:hover, .socials:hover .social{
+	text-decoration:none;
+	background-color: transparent;
 }
 
 li.dropdown {
@@ -28,15 +81,15 @@ li.dropdown {
 	position: absolute;
 	background-color: #f9f9f9;
 	min-width: 160px;
-	box-shadow: 0px 16px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
 
 .dropdown-content a {
-	color:black;
+	color: black;
 	padding: 12px 16px;
-	text-decoration:none;
-	display:block;
+	text-decoration: none;
+	display: block;
 	text-align: left;
 }
 
